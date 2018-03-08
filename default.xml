@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="github" fetch="git@github.com:jaehwang/" />
-  <remote  name="bitbucket" fetch="git@bitbucket.org:jaehwang/" />
+  <remote  name="origin" fetch=".." />
   <default revision="master" remote="origin" sync-s="true" sync-j="4" sync-c="true" />
-  <project path="hello" name="hello.git" remote="github"/>
-  <project path="sandbox" name="sandbox.git" remote="bitbucket"/>
+  <project path="hello" name="hello.git" />
+  <project path="sandbox" name="sandbox.git" />
 </manifest>
